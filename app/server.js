@@ -15,12 +15,9 @@ logger.info('another line');
 logger.info('This never stops');
 logger.info('Logging logging all the way');
 logger.info('Something');
-<<<<<<< HEAD
 logger.info('Log entry for Rebase Lab');
 logger.info('Log entry for testing remote and locally');
-=======
-logger.info('Log entry for Testing 1');
->>>>>>> 98cfe97 (Bugfix/user auth error (#1))
+
 
 app.listen(3000, function () {
     logger.info("app listening on port 3000!");
