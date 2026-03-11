@@ -16,12 +16,7 @@ logger.info('This never stops');
 logger.info('Logging logging all the way');
 logger.info('Something');
 logger.info('Log entry for Rebase Lab');
-<<<<<<< HEAD
-logger.info('Log entry for testing remote');
-=======
-logger.info('Log entry for testing locally');
-
->>>>>>> ac9ec57 (made some changes in code)
+logger.info('Log entry for testing remote and locally');
 
 app.listen(3000, function () {
     logger.info("app listening on port 3000!");
