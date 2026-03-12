@@ -17,7 +17,7 @@ logger.info('Logging logging all the way');
 logger.info('Something');
 logger.info('Log entry for Rebase Lab');
 logger.info('Log entry for testing remote and locally');
-
+logger.info('Log entry for Testing 2');
 
 app.listen(3000, function () {
     logger.info("app listening on port 3000!");
